@@ -1,0 +1,64 @@
+body{
+    background: url(mikuterror.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.center1 {
+    white-space: nowrap;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+p{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: red;
+}
+
+.horizontal-flex-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin: 5px;
+    
+  }
+  
+.zoom{
+    width: 100%;
+    height: 100%;
+    transform-origin: 0px 0px;
+    transform: scale(1) translate(0px,0px);
+    cursor: grab;
+}
+
+.zoom-img{
+    width: 100%;
+    height: auto;
+}
+
+h2{
+    text-align: center;
+    color: rgb(255, 0, 0)
+}
+
+.square {
+    height: 890px;
+    width: 600px;
+    border-radius: 15%;
+    background-color: #40555185;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .square1 {
+    height: 510px;
+    width: 600px;
+    border-bottom-left-radius:20%;
+    border-bottom-right-radius:20%;
+    background-color: #1d3b36ba;
+    margin-left: auto;
+    margin-right: auto;
+  }
